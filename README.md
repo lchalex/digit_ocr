@@ -1,6 +1,6 @@
 # Digit OCR
 Anchor based detection model  
-The repository is modified from [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch)  
+This repository is modified from [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch)  
 
 ## Dependency
  - tqdm
@@ -24,6 +24,7 @@ Validation Samples
 
 ## Augmentation
 ### Training
+(fixed size of 224x224)
  - random affine
  - random threshold
  - random scaling
@@ -36,7 +37,9 @@ Validation Samples
  - color normalization
 
 ## Architecture
- - Resnet backbone + FPN neck + SSD head
+ - Resnet18 backbone + FPN neck + SSD head
+ - Total number of parameters: 12,149,296 (11,170,240 + 921,216 + 57,840)
+ 
 <p align="center">
     <img src="doc/archi.png" title="Architecture" /><br />  
     <img src="doc/ssd_head.png" height="200" title="Head" />  
