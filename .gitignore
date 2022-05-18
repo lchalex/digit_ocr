@@ -1,0 +1,9 @@
+./runs
+./log_image
+./input
+./weights
+!./weights/README.md
+
+*.pth
+*.pyc
+._*
