@@ -1,8 +1,8 @@
-./runs/*
-./log_image/*
-./input/*
-./weights/*
-!./weights/README.md
+runs/*
+log_image/*
+input/*
+weights/*
+!weights/README.md
 
 *.pth
 *.pyc
