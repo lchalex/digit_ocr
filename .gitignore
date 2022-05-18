@@ -1,9 +1,10 @@
-./runs
-./log_image
-./input
-./weights
+./runs/*
+./log_image/*
+./input/*
+./weights/*
 !./weights/README.md
 
 *.pth
 *.pyc
 ._*
+.DS_Store

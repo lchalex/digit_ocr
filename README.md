@@ -16,10 +16,10 @@ The repository is modified from [ssd.pytorch](https://github.com/amdegroot/ssd.p
 
 Validation Samples
 <p align="left">
-    <img src="doc/val_1.png" width="224" title="valid image 1"/>
-    <img src="doc/val_2.png" width="224" title="valid image 2"/>
-    <img src="doc/val_3.png" width="224" title="valid image 3"/>
-    <img src="doc/val_4.png" width="224" title="valid image 4"/>
+    <img src="doc/val_1.png" width="224" title="valid image 1"/>  
+    <img src="doc/val_2.png" width="224" title="valid image 2"/><br />  
+    <img src="doc/val_3.png" width="224" title="valid image 3"/>  
+    <img src="doc/val_4.png" width="224" title="valid image 4"/>  
 </p>
 
 ## Augmentation
@@ -38,9 +38,9 @@ Validation Samples
 ## Architecture
  - Resnet backbone + FPN neck + SSD head
 <p align="center">
-    <img src="doc/archi.png" title="Architecture" />
-    <img src="doc/ssd_head.png" height="200" title="Head" />
-    <img src="doc/bottleneck.png" height="200" title="Block" />
+    <img src="doc/archi.png" title="Architecture" /><br />  
+    <img src="doc/ssd_head.png" height="200" title="Head" />  
+    <img src="doc/bottleneck.png" height="200" title="Block" />  
 </p>  
   
 
@@ -50,7 +50,7 @@ Validation Samples
   
 (See data/config.py)  
 <p align="left">
-    <img src="doc/anchor.png" title="anchor boxes">
+    <img src="doc/anchor.png" title="anchor boxes">  
 </p>
 
 ## Loss Function
@@ -63,9 +63,9 @@ Validation Samples
 
 ## Inference Results
 <p align="left">
-    <img src="doc/pred_1.png" title="pred image 1">
-    <img src="doc/pred_2.png" title="pred image 2">
-    <img src="doc/pred_3.png" title="pred image 3">
-    <img src="doc/pred_4.png" title="pred image 4">
+    <img src="doc/pred_1.png" title="pred image 1"><br />  
+    <img src="doc/pred_2.png" title="pred image 2"><br />  
+    <img src="doc/pred_3.png" title="pred image 3"><br />  
+    <img src="doc/pred_4.png" title="pred image 4"><br />  
 </p>
 
