@@ -72,3 +72,7 @@ Validation Samples
     <img src="doc/pred_4.png" title="pred image 4"><br />  
 </p>
 
+## Limitations
+ 1. Only trained on digit size between 28 to 224, will fail if it is too large
+ 2. Fail if digits are stacked together too closely
+ 
