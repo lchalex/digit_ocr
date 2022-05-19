@@ -83,6 +83,7 @@ Validation Samples
  - Non maximum suppression (IoU > 0.1, ignore class id)
 
 ## Inference Results
+Download checkpoint [here](https://drive.google.com/file/d/1QNfHe_Bv-7tn1AOxb40w_saXNyIHhzfD/view?usp=sharing)
 <p align="left">
     <img src="doc/pred_1.png" title="pred image 1"><br />  
     <img src="doc/pred_2.png" title="pred image 2"><br />  
