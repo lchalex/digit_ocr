@@ -11,6 +11,17 @@ This repository is modified from [ssd.pytorch](https://github.com/amdegroot/ssd.
  - torchvision
  - albumentations
 
+## Run the code
+### Train
+Put the MNIST data in input/ directory and run
+```bash
+python train.py
+```
+### Inference
+```bash
+python inference.py --trained_model="path_to_pth_file" --input="inference_folder_or_file" --save="save_prediction_path"
+```
+
 ## Dataset
  - MNIST
 
@@ -46,7 +57,6 @@ Validation Samples
     <img src="doc/bottleneck.png" height="200" title="Block" />  
 </p>  
   
-
 ## Anchor boxes
  - 4 boxes per feature map pixel
  - Total 16600 boxes (56x56x4 + 28x28x4 + 14x14x4 + 7x7x4) for 224x224 input
@@ -60,6 +70,12 @@ Validation Samples
  - localization (smooth L1) + confidence (cross entropy) loss
  - Hard negative mining with ratio of 1:3
  - Postive samples: IoU >= 0.5, netural samples: 0.5 > IoU > 0.1
+
+## Training Logs
+<p align="left">
+    <img src="doc/log_train.png" height="200" title="train logging" /><br />  
+    <img src="doc/log_val.png" height="200" title="val logging" />  
+</p>  
 
 ## Post-processing
  - Non maximum suppression (IoU > 0.1, ignore class id)
