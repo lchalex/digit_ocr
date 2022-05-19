@@ -25,6 +25,8 @@ python inference.py --trained_model="path_to_pth_file" --input="inference_folder
 ## Dataset
  - MNIST
 
+Can be downloaded in [google drive](https://drive.google.com/file/d/1O5DRyhSlK5K0E23vb7VqwxDNYjIriYR0/view?usp=sharing)
+
 Validation Samples
 <p align="left">
     <img src="doc/val_1.png" width="224" title="valid image 1"/>  
@@ -35,7 +37,7 @@ Validation Samples
 
 ## Augmentation
 ### Training
-(fixed size of 224x224)
+(fixed size of 224x224)  
  - random affine
  - random threshold
  - random scaling
